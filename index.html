@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Example Project</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+    <header class="margins">
+        <h1>Example Project</h1>
+        <div class="margins">
+            <div id="logo">
+                <span>~L~</span>
+            </div>
+            <div data-attribute="second-logo" id="logo">
+                <span>~L~</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Trigger/Open The Modal -->
+    <div class="margins">
+        <button class="btn btn-primary" id="myBtn">Open Modal</button>
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="modal-text">Some text in the Modal..</p>
+        </div>
+    </div>
+
+    <div class="margins">
+        <div class="dropdown show">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Menu
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="pages/draganddrop.html">Drag and Drop</a>
+                <a class="dropdown-item" href="pages/slowlyloading.html">SlowPage</a>
+                <a class="dropdown-item" href="pages/select.html">Select</a>
+                <a class="dropdown-item" href="pages/spotter.html">Spotter</a>
+                <a class="dropdown-item" href="editor/index.html">Editor</a>
+                <a class="dropdown-item" href="pages/alerts.html">Alerts</a>
+                <a class="dropdown-item" href="pages/iframes.html">Iframes</a>
+                <a class="dropdown-item" href="pages/ajax.html">Ajax</a>
+                <a class="dropdown-item" href="pages/application.html">Application</a>
+                <a class="dropdown-item" href="drawdivs/index.html">Draw divs</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="margins">
+        <h2>Visibility of elements</h2>
+        <!-- Different types of hidden elements -->
+        <button id="hidden" class="invisible btn btn-info">I'm invisible!</button>
+        <button id="display" class="not-displayed btn btn-warning">I'm not displayed!</button>
+        <button id="opacity" class="hide_with_opacity button">I'm hidden!</button>
+        <button id="disabled" class="hide btn btn-warning" disabled>Disabled</button>
+    </div>
+
+    <div class="margins">
+        <table class="table table-bordered">
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+            </tr>
+            <tr>
+                <td>Spider Man</td>
+                <td>pieter.parker@example.com</td>
+                <td>212-00-546</td>
+            </tr>
+            <tr>
+                <td>Batman</td>
+                <td>bruce.vayne@gotham.com</td>
+                <td>123-45-678</td>
+            </tr>
+            <tr>
+                <td>Dart Vader</td>
+                <td>anakyn.skywalker@mail.com</td>
+                <td>123-45-678</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="margins">
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="inputGroup-sizing-default">Example</span>
+            </div>
+            <input id="inp" type="text" class="form-control length" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+          </div>
+    </div>
+
+    <footer style="margin-top:10px;">
+        <div class="margins">
+            <p>This link is very important: <span><a href="https://ya.ru">link</a></span></p>
+            <p>This link open new window: <span><a href="pages/alerts.html">Same window</a></span></p>
+            <p>This link open new window: <span><a target="_blank" href="pages/alerts.html">New window</a></span></p>
+            <a href="/main">Main</a>
+            <a href="/contacts">Contacts</a>
+            <a href="/help">Help</a>
+            <a href="/catalog">Catalog</a>
+        </div>
+    </footer>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+<script src="js/index.js"></script>
+
+</html>
